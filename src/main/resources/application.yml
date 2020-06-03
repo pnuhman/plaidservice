@@ -1,0 +1,11 @@
+plaid:
+  hostName: 5ec3fd44ba7c950013a7e342
+  clientId: 5ec3fd44ba7c950013a7e342
+  publicKey: d675c8e77a29deb226beba95a7c92d
+  secret: 977289bc139aed2db157e548be3e61
+  products: transactions
+  countryCodes: US
+  oAuthRedirectUri: ""
+  oAuthNone: ""
+server:
+  port: 9226

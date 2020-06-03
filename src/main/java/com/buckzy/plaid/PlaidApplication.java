@@ -1,6 +1,5 @@
 package com.buckzy.plaid;
 
-import com.plaid.client.PlaidClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -39,4 +39,14 @@ public class Numbers {
     public void setBacs(List<NumberBACS> bacs) {
         this.bacs = bacs;
     }
+
+    @Override
+    public String toString() {
+        return "Numbers{" +
+                "ach=" + ach +
+                ", eft=" + eft +
+                ", international=" + international +
+                ", bacs=" + bacs +
+                '}';
+    }
 }

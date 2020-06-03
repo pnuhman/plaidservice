@@ -9,16 +9,16 @@ public class NumberInternational {
         return accountId;
     }
 
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
+    }
+
     public String getIBAN() {
         return iban;
     }
 
     public String getBIC() {
         return bic;
-    }
-
-    public void setAccountId(String accountId) {
-        this.accountId = accountId;
     }
 
     public String getIban() {
@@ -35,5 +35,14 @@ public class NumberInternational {
 
     public void setBic(String bic) {
         this.bic = bic;
+    }
+
+    @Override
+    public String toString() {
+        return "NumberInternational{" +
+                "accountId='" + accountId + '\'' +
+                ", iban='" + iban + '\'' +
+                ", bic='" + bic + '\'' +
+                '}';
     }
 }

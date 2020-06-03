@@ -1,0 +1,3 @@
+[submodule "BuckzyCore"]
+	path = BuckzyCore
+	url = https://github.com/buckzy/BuckzyCore.git

@@ -1,0 +1,345 @@
+03-06-2020 11:51:03.825-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21876 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:51:03.832-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:51:05.346-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:51:05.372-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:05.377-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:51:05.379-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:51:05.595-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:51:05.596-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1670 ms
+03-06-2020 11:51:06.796-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:51:06.993-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.018-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:51:07.021-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:51:07.027-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.028-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:51:07.038-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.039-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.049-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:51:07.069-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:52:29.657-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 17188 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:52:29.661-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:52:30.960-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:52:30.970-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:30.971-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:52:30.972-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:52:31.110-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:52:31.111-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1383 ms
+03-06-2020 11:52:32.054-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:32.269-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.289-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:52:32.291-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:32.295-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.296-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:52:32.301-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.302-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.312-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:52:32.331-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:52:52.603-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 19256 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:52:52.607-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:52:54.148-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:52:54.162-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:54.163-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:52:54.163-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:52:54.301-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:52:54.301-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1633 ms
+03-06-2020 11:52:55.328-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:55.554-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.570-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:52:55.572-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:55.583-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.584-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:52:55.593-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.594-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.600-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:52:55.609-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:53:09.156-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21192 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:53:09.163-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:53:10.502-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:53:10.517-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:10.518-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:53:10.518-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:53:10.648-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:53:10.649-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1402 ms
+03-06-2020 11:53:11.700-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:53:11.911-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.926-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:53:11.929-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:53:11.935-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.936-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:53:11.942-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.943-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.951-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:53:11.961-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:54:11.481-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21832 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:54:11.486-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:54:12.857-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 11:54:12.872-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:54:12.873-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:54:12.874-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:54:13.011-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:54:13.012-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1454 ms
+03-06-2020 11:54:14.201-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:14.464-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:54:14.493-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 11:54:14.511-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 3.616 seconds (JVM running for 5.133)
+03-06-2020 11:54:49.632-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 20904 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:54:49.636-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:54:50.850-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:54:50.860-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:50.861-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:54:50.862-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:54:50.999-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:54:51.000-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1306 ms
+03-06-2020 11:54:51.961-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:52.181-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.199-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:54:52.200-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:52.205-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.205-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:54:52.215-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.216-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.223-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:54:52.231-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:55:22.856-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 14216 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:55:22.863-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:55:24.280-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 11:55:24.295-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:55:24.296-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:55:24.297-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:55:24.437-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:55:24.438-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1484 ms
+03-06-2020 11:55:25.455-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:55:25.728-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:55:25.779-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 11:55:25.797-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 3.688 seconds (JVM running for 5.367)
+03-06-2020 12:14:50.413-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-06-2020 12:14:50.414-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.s.w.s.DispatcherServlet.initServletBean  -
+                Initializing Servlet 'dispatcherServlet'
+03-06-2020 12:14:50.422-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.s.w.s.DispatcherServlet.initServletBean  -
+                Completed initialization in 8 ms
+03-06-2020 12:14:51.171-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                public token: public-sandbox-282e7b9f-2c86-4a89-8095-fa8302103030
+03-06-2020 12:14:51.173-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                access token: access-sandbox-cae2c357-d41e-45ab-af46-d7fd02c9023f
+03-06-2020 12:14:51.175-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                item ID: 8B531bwd7aFZXzwzrZaahJmkdMBRmJtwyq7EK
+03-06-2020 12:14:52.086-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAuth  -
+                getAuth: AuthResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, IDENTITY, INVESTMENTS], billedProducts=[AUTH, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[Account{accountId='7zwBMnQxjdC5qrvrA5WWhrPkPXwNRvugJ4LJy', type='depository', subtype='checking', balances=Balances{available=100.0, current=110.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Checking', mask='0000', officialName='Plaid Gold Standard 0% Interest Checking', verificationStatus='null'}, Account{accountId='eNKokBaGr7FnWmGmPnKKu3161lGADjuL9y199', type='depository', subtype='savings', balances=Balances{available=200.0, current=210.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Saving', mask='1111', officialName='Plaid Silver Standard 0.1% Interest Saving', verificationStatus='null'}, Account{accountId='Qb8K4LVdNvfgWpepxgyyUok4kNawdbipmrEmQ', type='depository', subtype='cd', balances=Balances{available=null, current=1000.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid CD', mask='2222', officialName='Plaid Bronze Standard 0.2% Interest CD', verificationStatus='null'}, Account{accountId='Zl9N1ngZLruEbqkqQEMMhLD1D9xnbXtgqnVq6', type='credit', subtype='credit card', balances=Balances{available=null, current=410.0, limit=2000.0, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Credit Card', mask='3333', officialName='Plaid Diamond 12.5% APR Interest Credit Card', verificationStatus='null'}, Account{accountId='MWLA3QwzxbHkLR9RrkxxIxvjv4JoNDi96bV6o', type='depository', subtype='money market', balances=Balances{available=43200.0, current=43200.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Money Market', mask='4444', officialName='Plaid Platinum Standard 1.85% Interest Money Market', verificationStatus='null'}, Account{accountId='1XvGkgyqxKclDA7AolnnijyEy6mnB1t5jbljJ', type='investment', subtype='ira', balances=Balances{available=null, current=320.76, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid IRA', mask='5555', officialName='null', verificationStatus='null'}, Account{accountId='LE1WBejr3nhZ1oboKZvvh8JRJeABP9uPjgGjb', type='investment', subtype='401k', balances=Balances{available=null, current=23631.9805, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid 401k', mask='6666', officialName='null', verificationStatus='null'}, Account{accountId='pojzxQLy7EfbxaEakbNNTZkBkqrem9iLo93ow', type='loan', subtype='student', balances=Balances{available=null, current=65262.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Student Loan', mask='7777', officialName='null', verificationStatus='null'}, Account{accountId='opPr3eXGj8fL3WGWkLMMhdAVAPMW1JcRq48qZ', type='loan', subtype='mortgage', balances=Balances{available=null, current=56302.06, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Mortgage', mask='8888', officialName='null', verificationStatus='null'}], numbers=Numbers{ach=null, eft=[], international=[], bacs=[]}}
+03-06-2020 12:14:53.376-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getIdentity  -
+                getIdentity: IdentityResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, INVESTMENTS], billedProducts=[AUTH, IDENTITY, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}]}
+03-06-2020 12:14:54.151-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccountBalance  -
+                getAccountBalance: AccountsBalanceResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, INVESTMENTS], billedProducts=[AUTH, IDENTITY, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[Account{accountId='7zwBMnQxjdC5qrvrA5WWhrPkPXwNRvugJ4LJy', type='depository', subtype='checking', balances=Balances{available=100.0, current=110.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Checking', mask='0000', officialName='Plaid Gold Standard 0% Interest Checking', verificationStatus='null'}, Account{accountId='eNKokBaGr7FnWmGmPnKKu3161lGADjuL9y199', type='depository', subtype='savings', balances=Balances{available=200.0, current=210.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Saving', mask='1111', officialName='Plaid Silver Standard 0.1% Interest Saving', verificationStatus='null'}, Account{accountId='Qb8K4LVdNvfgWpepxgyyUok4kNawdbipmrEmQ', type='depository', subtype='cd', balances=Balances{available=null, current=1000.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid CD', mask='2222', officialName='Plaid Bronze Standard 0.2% Interest CD', verificationStatus='null'}, Account{accountId='Zl9N1ngZLruEbqkqQEMMhLD1D9xnbXtgqnVq6', type='credit', subtype='credit card', balances=Balances{available=null, current=410.0, limit=2000.0, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Credit Card', mask='3333', officialName='Plaid Diamond 12.5% APR Interest Credit Card', verificationStatus='null'}, Account{accountId='MWLA3QwzxbHkLR9RrkxxIxvjv4JoNDi96bV6o', type='depository', subtype='money market', balances=Balances{available=43200.0, current=43200.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Money Market', mask='4444', officialName='Plaid Platinum Standard 1.85% Interest Money Market', verificationStatus='null'}, Account{accountId='1XvGkgyqxKclDA7AolnnijyEy6mnB1t5jbljJ', type='investment', subtype='ira', balances=Balances{available=null, current=320.76, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid IRA', mask='5555', officialName='null', verificationStatus='null'}, Account{accountId='LE1WBejr3nhZ1oboKZvvh8JRJeABP9uPjgGjb', type='investment', subtype='401k', balances=Balances{available=null, current=23631.9805, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid 401k', mask='6666', officialName='null', verificationStatus='null'}, Account{accountId='pojzxQLy7EfbxaEakbNNTZkBkqrem9iLo93ow', type='loan', subtype='student', balances=Balances{available=null, current=65262.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Student Loan', mask='7777', officialName='null', verificationStatus='null'}, Account{accountId='opPr3eXGj8fL3WGWkLMMhdAVAPMW1JcRq48qZ', type='loan', subtype='mortgage', balances=Balances{available=null, current=56302.06, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Mortgage', mask='8888', officialName='null', verificationStatus='null'}]}
+03-06-2020 12:28:38.615-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 1392 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 12:28:38.631-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 12:28:39.976-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 12:28:39.989-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 12:28:39.990-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 12:28:39.991-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 12:28:40.135-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 12:28:40.136-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1400 ms
+03-06-2020 12:28:41.117-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 12:28:41.350-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 12:28:41.445-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 12:28:41.491-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 9.796 seconds (JVM running for 13.12)

@@ -10,31 +10,41 @@ public class NumberACH {
         return accountId;
     }
 
-    public String getAccount() {
-        return account;
-    }
-
-    public String getRouting() {
-        return routing;
-    }
-
-    public String getWireRouting() {
-        return wireRouting;
-    }
-
     public void setAccountId(String accountId) {
         this.accountId = accountId;
+    }
+
+    public String getAccount() {
+        return account;
     }
 
     public void setAccount(String account) {
         this.account = account;
     }
 
+    public String getRouting() {
+        return routing;
+    }
+
     public void setRouting(String routing) {
         this.routing = routing;
     }
 
+    public String getWireRouting() {
+        return wireRouting;
+    }
+
     public void setWireRouting(String wireRouting) {
         this.wireRouting = wireRouting;
+    }
+
+    @Override
+    public String toString() {
+        return "NumberACH{" +
+                "accountId='" + accountId + '\'' +
+                ", account='" + account + '\'' +
+                ", routing='" + routing + '\'' +
+                ", wireRouting='" + wireRouting + '\'' +
+                '}';
     }
 }
