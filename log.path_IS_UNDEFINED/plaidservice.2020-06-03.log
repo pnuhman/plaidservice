@@ -1,0 +1,1059 @@
+03-06-2020 11:51:03.825-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21876 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:51:03.832-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:51:05.346-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:51:05.372-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:05.377-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:51:05.379-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:51:05.595-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:51:05.596-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1670 ms
+03-06-2020 11:51:06.796-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:51:06.993-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.018-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:51:07.021-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:51:07.027-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.028-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:51:07.038-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.039-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:51:07.049-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:51:07.069-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:52:29.657-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 17188 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:52:29.661-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:52:30.960-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:52:30.970-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:30.971-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:52:30.972-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:52:31.110-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:52:31.111-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1383 ms
+03-06-2020 11:52:32.054-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:32.269-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.289-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:52:32.291-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:32.295-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.296-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:52:32.301-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.302-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:32.312-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:52:32.331-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:52:52.603-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 19256 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:52:52.607-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:52:54.148-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:52:54.162-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:54.163-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:52:54.163-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:52:54.301-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:52:54.301-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1633 ms
+03-06-2020 11:52:55.328-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:55.554-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.570-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:52:55.572-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:52:55.583-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.584-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:52:55.593-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.594-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:52:55.600-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:52:55.609-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:53:09.156-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21192 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:53:09.163-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:53:10.502-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:53:10.517-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:10.518-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:53:10.518-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:53:10.648-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:53:10.649-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1402 ms
+03-06-2020 11:53:11.700-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:53:11.911-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.926-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:53:11.929-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:53:11.935-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.936-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:53:11.942-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.943-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:53:11.951-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:53:11.961-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:54:11.481-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 21832 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:54:11.486-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:54:12.857-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 11:54:12.872-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:54:12.873-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:54:12.874-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:54:13.011-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:54:13.012-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1454 ms
+03-06-2020 11:54:14.201-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:14.464-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:54:14.493-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 11:54:14.511-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 3.616 seconds (JVM running for 5.133)
+03-06-2020 11:54:49.632-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 20904 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:54:49.636-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:54:50.850-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9227 (http)
+03-06-2020 11:54:50.860-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:50.861-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:54:50.862-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:54:50.999-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:54:51.000-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1306 ms
+03-06-2020 11:54:51.961-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:52.181-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.199-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9227 is already in use
+03-06-2020 11:54:52.200-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.shutdown  -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:54:52.205-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Pausing ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.205-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 11:54:52.215-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Stopping ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.216-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Destroying ProtocolHandler ["http-nio-9227"]
+03-06-2020 11:54:52.223-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 11:54:52.231-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9227 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9227 or configure this application to listen on another port.
+
+03-06-2020 11:55:22.856-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 14216 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 11:55:22.863-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 11:55:24.280-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 11:55:24.295-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:55:24.296-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 11:55:24.297-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 11:55:24.437-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 11:55:24.438-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1484 ms
+03-06-2020 11:55:25.455-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 11:55:25.728-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 11:55:25.779-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 11:55:25.797-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 3.688 seconds (JVM running for 5.367)
+03-06-2020 12:14:50.413-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-06-2020 12:14:50.414-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.s.w.s.DispatcherServlet.initServletBean  -
+                Initializing Servlet 'dispatcherServlet'
+03-06-2020 12:14:50.422-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m o.s.w.s.DispatcherServlet.initServletBean  -
+                Completed initialization in 8 ms
+03-06-2020 12:14:51.171-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                public token: public-sandbox-282e7b9f-2c86-4a89-8095-fa8302103030
+03-06-2020 12:14:51.173-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                access token: access-sandbox-cae2c357-d41e-45ab-af46-d7fd02c9023f
+03-06-2020 12:14:51.175-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccessToken  -
+                item ID: 8B531bwd7aFZXzwzrZaahJmkdMBRmJtwyq7EK
+03-06-2020 12:14:52.086-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAuth  -
+                getAuth: AuthResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, IDENTITY, INVESTMENTS], billedProducts=[AUTH, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[Account{accountId='7zwBMnQxjdC5qrvrA5WWhrPkPXwNRvugJ4LJy', type='depository', subtype='checking', balances=Balances{available=100.0, current=110.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Checking', mask='0000', officialName='Plaid Gold Standard 0% Interest Checking', verificationStatus='null'}, Account{accountId='eNKokBaGr7FnWmGmPnKKu3161lGADjuL9y199', type='depository', subtype='savings', balances=Balances{available=200.0, current=210.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Saving', mask='1111', officialName='Plaid Silver Standard 0.1% Interest Saving', verificationStatus='null'}, Account{accountId='Qb8K4LVdNvfgWpepxgyyUok4kNawdbipmrEmQ', type='depository', subtype='cd', balances=Balances{available=null, current=1000.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid CD', mask='2222', officialName='Plaid Bronze Standard 0.2% Interest CD', verificationStatus='null'}, Account{accountId='Zl9N1ngZLruEbqkqQEMMhLD1D9xnbXtgqnVq6', type='credit', subtype='credit card', balances=Balances{available=null, current=410.0, limit=2000.0, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Credit Card', mask='3333', officialName='Plaid Diamond 12.5% APR Interest Credit Card', verificationStatus='null'}, Account{accountId='MWLA3QwzxbHkLR9RrkxxIxvjv4JoNDi96bV6o', type='depository', subtype='money market', balances=Balances{available=43200.0, current=43200.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Money Market', mask='4444', officialName='Plaid Platinum Standard 1.85% Interest Money Market', verificationStatus='null'}, Account{accountId='1XvGkgyqxKclDA7AolnnijyEy6mnB1t5jbljJ', type='investment', subtype='ira', balances=Balances{available=null, current=320.76, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid IRA', mask='5555', officialName='null', verificationStatus='null'}, Account{accountId='LE1WBejr3nhZ1oboKZvvh8JRJeABP9uPjgGjb', type='investment', subtype='401k', balances=Balances{available=null, current=23631.9805, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid 401k', mask='6666', officialName='null', verificationStatus='null'}, Account{accountId='pojzxQLy7EfbxaEakbNNTZkBkqrem9iLo93ow', type='loan', subtype='student', balances=Balances{available=null, current=65262.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Student Loan', mask='7777', officialName='null', verificationStatus='null'}, Account{accountId='opPr3eXGj8fL3WGWkLMMhdAVAPMW1JcRq48qZ', type='loan', subtype='mortgage', balances=Balances{available=null, current=56302.06, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Mortgage', mask='8888', officialName='null', verificationStatus='null'}], numbers=Numbers{ach=null, eft=[], international=[], bacs=[]}}
+03-06-2020 12:14:53.376-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getIdentity  -
+                getIdentity: IdentityResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, INVESTMENTS], billedProducts=[AUTH, IDENTITY, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}, AccountWithOwners{owners=[Identity{addresses=[Address{data=AddressData{street='2992 Cameron Road', city='Malakoff', region='NY', postalCode='14236', country='US'}, primary=true}, Address{data=AddressData{street='2493 Leisure Lane', city='San Matias', region='CA', postalCode='93405-2255', country='US'}, primary=false}], emails=[Email{data='accountholder0@example.com', primary=true, type='primary'}, Email{data='accountholder1@example.com', primary=false, type='secondary'}, Email{data='extraordinarily.long.email.username.123456@reallylonghostname.com', primary=false, type='other'}], names=[Alberta Bobbeth Charleson], phoneNumbers=[PhoneNumber{data='1112223333', primary=false, type='home'}, PhoneNumber{data='1112224444', primary=false, type='work'}, PhoneNumber{data='1112225555', primary=false, type='mobile1'}]}]}]}
+03-06-2020 12:14:54.151-0400 [35m[http-nio-9226-exec-9][0;39m [34mINFO [0;39m c.b.p.s.PlaidService.getAccountBalance  -
+                getAccountBalance: AccountsBalanceResponse{item=ItemStatus{availableProducts=[ASSETS, BALANCE, INVESTMENTS], billedProducts=[AUTH, IDENTITY, TRANSACTIONS], error=null, institutionId='null', itemId='null', webhook='null', consentExpirationTime=null}, accounts=[Account{accountId='7zwBMnQxjdC5qrvrA5WWhrPkPXwNRvugJ4LJy', type='depository', subtype='checking', balances=Balances{available=100.0, current=110.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Checking', mask='0000', officialName='Plaid Gold Standard 0% Interest Checking', verificationStatus='null'}, Account{accountId='eNKokBaGr7FnWmGmPnKKu3161lGADjuL9y199', type='depository', subtype='savings', balances=Balances{available=200.0, current=210.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Saving', mask='1111', officialName='Plaid Silver Standard 0.1% Interest Saving', verificationStatus='null'}, Account{accountId='Qb8K4LVdNvfgWpepxgyyUok4kNawdbipmrEmQ', type='depository', subtype='cd', balances=Balances{available=null, current=1000.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid CD', mask='2222', officialName='Plaid Bronze Standard 0.2% Interest CD', verificationStatus='null'}, Account{accountId='Zl9N1ngZLruEbqkqQEMMhLD1D9xnbXtgqnVq6', type='credit', subtype='credit card', balances=Balances{available=null, current=410.0, limit=2000.0, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Credit Card', mask='3333', officialName='Plaid Diamond 12.5% APR Interest Credit Card', verificationStatus='null'}, Account{accountId='MWLA3QwzxbHkLR9RrkxxIxvjv4JoNDi96bV6o', type='depository', subtype='money market', balances=Balances{available=43200.0, current=43200.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Money Market', mask='4444', officialName='Plaid Platinum Standard 1.85% Interest Money Market', verificationStatus='null'}, Account{accountId='1XvGkgyqxKclDA7AolnnijyEy6mnB1t5jbljJ', type='investment', subtype='ira', balances=Balances{available=null, current=320.76, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid IRA', mask='5555', officialName='null', verificationStatus='null'}, Account{accountId='LE1WBejr3nhZ1oboKZvvh8JRJeABP9uPjgGjb', type='investment', subtype='401k', balances=Balances{available=null, current=23631.9805, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid 401k', mask='6666', officialName='null', verificationStatus='null'}, Account{accountId='pojzxQLy7EfbxaEakbNNTZkBkqrem9iLo93ow', type='loan', subtype='student', balances=Balances{available=null, current=65262.0, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Student Loan', mask='7777', officialName='null', verificationStatus='null'}, Account{accountId='opPr3eXGj8fL3WGWkLMMhdAVAPMW1JcRq48qZ', type='loan', subtype='mortgage', balances=Balances{available=null, current=56302.06, limit=null, isoCurrencyCode='USD', unofficialCurrencyCode='null'}, name='Plaid Mortgage', mask='8888', officialName='null', verificationStatus='null'}]}
+03-06-2020 12:28:38.615-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 1392 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 12:28:38.631-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 12:28:39.976-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 12:28:39.989-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 12:28:39.990-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 12:28:39.991-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 12:28:40.135-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 12:28:40.136-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 1400 ms
+03-06-2020 12:28:41.117-0400 [35m[main][0;39m [34mINFO [0;39m o.s.s.c.ThreadPoolTaskExecutor.initialize  -
+                Initializing ExecutorService 'applicationTaskExecutor'
+03-06-2020 12:28:41.350-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Starting ProtocolHandler ["http-nio-9226"]
+03-06-2020 12:28:41.445-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.start  -
+                Tomcat started on port(s): 9226 (http) with context path ''
+03-06-2020 12:28:41.491-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarted  -
+                Started PlaidApplication in 9.796 seconds (JVM running for 13.12)
+03-06-2020 17:12:07.088-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 24148 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:12:07.096-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:12:07.370-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:12:08.767-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:12:08.931-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 150ms. Found 1 JPA repository interfaces.
+03-06-2020 17:12:09.514-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:12:09.532-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:12:09.546-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:12:09.833-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:12:09.851-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:12:09.856-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:12:10.381-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:12:10.435-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:12:10.437-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:12:10.438-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:12:10.811-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:12:10.812-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 3623 ms
+03-06-2020 17:12:10.963-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:12:10.972-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:12:11.009-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:12:11.030-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:12:11.049-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+03-06-2020 17:25:27.150-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 6900 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:25:27.159-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:25:27.402-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:25:28.500-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:25:28.663-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 150ms. Found 1 JPA repository interfaces.
+03-06-2020 17:25:29.123-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:25:29.139-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:25:29.152-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:25:29.354-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:25:29.370-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:25:29.373-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:25:29.801-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:25:29.819-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:25:29.820-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:25:29.821-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:25:30.183-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:25:30.183-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 2942 ms
+03-06-2020 17:25:30.406-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:25:30.412-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:25:30.436-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:25:30.446-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:25:30.460-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+03-06-2020 17:26:26.480-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 1972 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:26:26.485-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:26:26.774-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:26:27.933-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:26:28.097-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 142ms. Found 1 JPA repository interfaces.
+03-06-2020 17:26:28.561-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:26:28.580-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:26:28.596-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:26:28.862-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:26:28.883-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:26:28.887-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:26:29.408-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:26:29.428-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:26:29.430-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:26:29.436-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:26:29.873-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:26:29.873-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 3305 ms
+03-06-2020 17:26:30.047-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:26:30.051-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:26:30.070-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:26:30.074-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:26:30.084-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+03-06-2020 17:27:36.961-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 22672 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:27:36.972-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:27:37.298-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:27:38.587-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:27:38.733-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 131ms. Found 1 JPA repository interfaces.
+03-06-2020 17:27:39.191-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:27:39.204-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:27:39.217-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:27:39.526-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:27:39.540-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:27:39.544-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:27:39.976-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:27:39.998-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:27:39.999-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:27:40.000-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:27:40.464-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:27:40.464-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 3374 ms
+03-06-2020 17:27:40.680-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:27:40.688-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:27:40.723-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:27:40.730-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:27:40.749-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+03-06-2020 17:28:46.933-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 17208 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:28:46.941-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:28:47.193-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:28:48.361-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:28:48.541-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 166ms. Found 1 JPA repository interfaces.
+03-06-2020 17:28:48.987-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:28:49.007-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:28:49.025-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:28:49.271-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:28:49.287-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:28:49.289-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:28:49.719-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:28:49.733-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:28:49.734-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:28:49.734-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:28:50.076-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:28:50.077-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 3040 ms
+03-06-2020 17:28:50.206-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:28:50.210-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:28:50.230-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:28:50.234-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:28:50.244-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+03-06-2020 17:30:20.838-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStarting  -
+                Starting PlaidApplication on DESKTOP-MNH3921 with PID 6248 (C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360\build\classes\java\main started by npara in C:\plaidservice-feature-BUC-360\plaidservice-feature-BUC-360)
+03-06-2020 17:30:20.844-0400 [35m[main][0;39m [34mINFO [0;39m c.b.p.PlaidApplication.logStartupProfileInfo  -
+                No active profile set, falling back to default profiles: default
+03-06-2020 17:30:21.104-0400 [35m[background-preinit][0;39m [31mWARN [0;39m o.s.h.c.j.Jackson2ObjectMapperBuilder.warn  -
+                For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+03-06-2020 17:30:22.166-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+03-06-2020 17:30:22.303-0400 [35m[main][0;39m [34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn  -
+                Finished Spring Data repository scanning in 125ms. Found 1 JPA repository interfaces.
+03-06-2020 17:30:22.731-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerErrorChannel  -
+                No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+03-06-2020 17:30:22.746-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerTaskScheduler  -
+                No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+03-06-2020 17:30:22.759-0400 [35m[main][0;39m [34mINFO [0;39m o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor.registerHeaderChannelRegistry  -
+                No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+03-06-2020 17:30:23.019-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:30:23.034-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:30:23.037-0400 [35m[main][0;39m [34mINFO [0;39m o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization  -
+                Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+03-06-2020 17:30:23.426-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.w.e.t.TomcatWebServer.initialize  -
+                Tomcat initialized with port(s): 9226 (http)
+03-06-2020 17:30:23.444-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.h.Http11NioProtocol.log  -
+                Initializing ProtocolHandler ["http-nio-9226"]
+03-06-2020 17:30:23.445-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Starting service [Tomcat]
+03-06-2020 17:30:23.446-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.core.StandardEngine.log  -
+                Starting Servlet engine: [Apache Tomcat/9.0.35]
+03-06-2020 17:30:23.760-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.C.[.[.[/].log  -
+                Initializing Spring embedded WebApplicationContext
+03-06-2020 17:30:23.760-0400 [35m[main][0;39m [34mINFO [0;39m o.s.w.c.ContextLoader.prepareWebApplicationContext  -
+                Root WebApplicationContext: initialization completed in 2838 ms
+03-06-2020 17:30:23.895-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh  -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+03-06-2020 17:30:23.902-0400 [35m[main][0;39m [34mINFO [0;39m o.a.c.c.StandardService.log  -
+                Stopping service [Tomcat]
+03-06-2020 17:30:23.930-0400 [35m[main][0;39m [34mINFO [0;39m o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage  -
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-06-2020 17:30:23.934-0400 [35m[main][0;39m [1;31mERROR[0;39m o.s.b.d.LoggingFailureAnalysisReporter.report  -
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+03-06-2020 17:30:23.944-0400 [35m[main][0;39m [31mWARN [0;39m o.s.b.SpringApplication.handleRunFailure  -
+                Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.buckzy.plaid.PlaidApplication.main(PlaidApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted

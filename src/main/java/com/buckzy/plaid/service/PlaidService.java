@@ -1,9 +1,11 @@
 package com.buckzy.plaid.service;
 
+import com.buckzy.core.dao.jpa.PlaidTokenJPARepository;
 import com.buckzy.plaid.mapper.PlaidMapper;
 import com.buckzy.plaid.model.AccountsBalanceResponse;
 import com.buckzy.plaid.model.AuthResponse;
 import com.buckzy.plaid.model.IdentityResponse;
+import com.buckzy.core.model.jpa.PlaidToken;
 import com.plaid.client.PlaidClient;
 import com.plaid.client.request.AccountsBalanceGetRequest;
 import com.plaid.client.request.AuthGetRequest;
@@ -22,6 +24,8 @@ import retrofit2.Response;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class PlaidService {
@@ -46,6 +50,9 @@ public class PlaidService {
 
     @Value("${plaid.publicKey}")
     private String plaidPublicKey;
+
+    @Autowired
+    private PlaidTokenJPARepository plaidTokenJPARepository;
 
 
     @PostConstruct
@@ -75,6 +82,24 @@ public class PlaidService {
         getAccountBalance(accessToken);
 
         return itemResponse.body();
+    }
+
+    public ItemPublicTokenExchangeResponse getDetails(UUID customerId, String publicToken) throws IOException {
+
+        ItemPublicTokenExchangeResponse itemPublicTokenExchangeResponse = getAccessToken(publicToken);
+
+        PlaidToken plaidToken = new PlaidToken();
+        plaidToken.setAccessToken(itemPublicTokenExchangeResponse.getAccessToken());
+        plaidToken.setItemId(itemPublicTokenExchangeResponse.getItemId());
+        plaidToken.setCustomerId(customerId);
+
+        plaidTokenJPARepository.save(plaidToken);
+
+        getAuth(itemPublicTokenExchangeResponse.getAccessToken());
+        getIdentity(itemPublicTokenExchangeResponse.getAccessToken());
+        getAccountBalance(itemPublicTokenExchangeResponse.getAccessToken());
+
+        return itemPublicTokenExchangeResponse;
     }
 
     public AuthResponse getAuth(String accessToken) throws IOException {
@@ -115,4 +140,13 @@ public class PlaidService {
 
         return accountsBalanceResponse;
     }
+
+    public String getAccessToken(UUID customerId, String itemId){
+        Optional<PlaidToken> plaidTokens =  plaidTokenJPARepository.findAllByCustomerIdAndItemId(customerId, itemId);
+        if(!plaidTokens.isPresent()){
+            return null;
+        }
+        return plaidTokens.get().getAccessToken();
+    }
+
 }

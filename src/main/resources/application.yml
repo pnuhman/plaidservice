@@ -9,3 +9,27 @@ plaid:
   oAuthNone: ""
 server:
   port: 9226
+
+## Datasource configuration
+buckzy:
+  account:
+    datasource:
+      driverClass: org.postgresql.Driver
+      jdbcUrl: jdbc:postgresql://localhost:5432/buckzy
+      datasource:
+        username: buckzyadmin
+        password: buckzyadmin
+    kafka:
+      url: localhost:9092
+spring:
+  application:
+    name: Beamservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/buckzy?currentSchema=buckzy
+    username: buckzyadmin
+    password: buckzyadmin
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
